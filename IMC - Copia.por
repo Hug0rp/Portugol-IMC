@@ -57,6 +57,6 @@ programa {
     escreva("Olá ", nome, "! Seu IMC é ", imc, " e sua classificação é ", calculo, " para o gênero feminino. " )
     }
   }
-
+   escreva("Este programa foi alterado")
   
   
