@@ -37,6 +37,7 @@ programa {
   funcao inicio() {
     real altura, peso, imc
     cadeia genero, nome, calculo
+    escreva("Este programa foi alterado")
     
     escreva("Escreva seu nome: ")
     leia(nome)
@@ -57,6 +58,6 @@ programa {
     escreva("Olá ", nome, "! Seu IMC é ", imc, " e sua classificação é ", calculo, " para o gênero feminino. " )
     }
   }
-   escreva("Este programa foi alterado")
+   
   
   
