@@ -1,6 +1,7 @@
 programa {
   funcao real imc(real altura, real peso){
-    retorne peso / (altura * altura)
+    real imcRes = peso / (altura * altura)
+    retorne imcRes
   }
   funcao cadeia classificar(real imc, cadeia genero){
     se(genero == "m" e imc <= 20){
