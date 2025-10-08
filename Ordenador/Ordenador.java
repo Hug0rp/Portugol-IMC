@@ -19,5 +19,10 @@ public class Ordenador {
         }
     }
 
+
+    public static void selectionSort(int[] vetor){
+        int n = vetor.length;
+        for n 
+    }
     }
 
