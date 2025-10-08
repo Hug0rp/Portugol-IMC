@@ -1,4 +1,4 @@
-package Busca;
+package BuscaEOrdenacao;
 
 public class Programa {
     public static void main(String[] args) {

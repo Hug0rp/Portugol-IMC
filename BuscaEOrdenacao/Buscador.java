@@ -1,4 +1,4 @@
-package Busca;
+package BuscaEOrdenacao;
 
 public class Buscador {
     public static int buscaSequencial(int[] vetor, int busca){
