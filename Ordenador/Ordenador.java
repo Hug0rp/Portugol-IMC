@@ -22,7 +22,31 @@ public class Ordenador {
 
     public static void selectionSort(int[] vetor){
         int n = vetor.length;
-        for n 
+        for (int i = 0; i < n - 1; i++){
+            int indiceMenor = i;
+            for(int j = i + 1; j < n; j++ ){
+                if(vetor[j] < vetor[indiceMenor]){
+                    indiceMenor = j;
+                }
+                int temp = vetor[indiceMenor];
+                vetor[indiceMenor] = vetor[i];
+                vetor[i] = temp;
+            }
+        }
     }
+    
+
+    public static void insertionSort(int[]vetor ){
+        for(int i = 1; i < vetor.length; i++){
+            int chave = vetor[i];
+            System.out.println("Essa é a chave " + chave);
+            int j = i - 1;
+            while (j >= 0 && vetor[j] > chave){
+                vetor[j + 1] = vetor [j];
+                j = j - 1;
+            }
+            vetor[j + 1] = chave;
+        }
     }
 
+}
